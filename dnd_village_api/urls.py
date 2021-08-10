@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import include, path
 from rest_framework import routers
-from dnd_village_api.quickstart import views
+from dnd_village_api.village_app import views
 
 router = routers.DefaultRouter()
 router.register(r"users", views.UserViewSet)
