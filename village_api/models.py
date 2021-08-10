@@ -1,6 +1,6 @@
 from django.db import models
 
-from village_app.DjangoChoicesEnum import DjangoChoicesEnum
+from village_api.app.DjangoChoicesEnum import DjangoChoicesEnum
 
 
 class RaceChoice(DjangoChoicesEnum):
@@ -43,10 +43,7 @@ class Person(models.Model):
     sexuality = models.CharField(
         max_length=50, choices=SexualityChoice.to_choices_list()
     )
-    age = models.IntegerField()
+    age = models.CharField(max_length=10)
     name = models.CharField(max_length=256)
     status = models.CharField(max_length=50, choices=StatusChoice.to_choices_list())
     profession = models.CharField(max_length=256)
-
-    class Meta:
-        db_table = "persons"
