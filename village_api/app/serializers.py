@@ -1,5 +1,7 @@
-from django.contrib.auth.models import User, Group
+from django.contrib.auth.models import User
 from rest_framework import serializers
+
+from village_api.models import Person, Location, Family
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -8,7 +10,19 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         fields = ["url", "username", "email", "groups"]
 
 
-class GroupSerializer(serializers.HyperlinkedModelSerializer):
+class FamilySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Group
-        fields = ["url", "name"]
+        model = Family
+        fields = "__all__"
+
+
+class LocationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Location
+        fields = "__all__"
+
+
+class PersonSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Person
+        fields = "__all__"

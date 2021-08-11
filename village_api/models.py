@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.deletion import CASCADE
 
 from village_api.app.DjangoChoicesEnum import DjangoChoicesEnum
 
@@ -37,6 +38,23 @@ class StatusChoice(DjangoChoicesEnum):
     UNKNOWN = "Unknown"
 
 
+class LocationTypeChoice(DjangoChoicesEnum):
+    V = "Village"
+    C = "City"
+    D = "Dungeon"
+
+
+class Location(models.Model):
+    name = models.CharField(max_length=256)
+    location_type = models.CharField(
+        max_length=50, choices=LocationTypeChoice.to_choices_list()
+    )
+
+
+class Family(models.Model):
+    location = models.ForeignKey(Location, on_delete=CASCADE, related_name="families")
+
+
 class Person(models.Model):
     race = models.CharField(max_length=50, choices=RaceChoice.to_choices_list())
     gender = models.CharField(max_length=50, choices=GenderChoice.to_choices_list())
@@ -47,3 +65,6 @@ class Person(models.Model):
     name = models.CharField(max_length=256)
     status = models.CharField(max_length=50, choices=StatusChoice.to_choices_list())
     profession = models.CharField(max_length=256)
+    family = models.ForeignKey(
+        Family, on_delete=CASCADE, related_name="members", default=None
+    )

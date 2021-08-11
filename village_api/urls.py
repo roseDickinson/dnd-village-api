@@ -15,15 +15,17 @@ Including another URLconf
 """
 from django.urls import include, path
 from rest_framework import routers
-from village_api.app import views
+from village_api.app.views import Familys, Locations, Persons, UserViewSet
 
 router = routers.DefaultRouter()
-router.register(r"users", views.UserViewSet)
-router.register(r"groups", views.GroupViewSet)
+router.register(r"users", UserViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path("", include(router.urls)),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
+    path("familys/", Familys.as_view(), name="familys-list"),
+    path("locations/", Locations.as_view(), name="locations-list"),
+    path("persons/", Persons.as_view(), name="persons-list"),
 ]
