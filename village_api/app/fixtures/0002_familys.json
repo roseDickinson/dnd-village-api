@@ -3,7 +3,8 @@
     "model": "village_api.Family",
     "pk": "1",
     "fields": {
-      "location": "1"
+      "location": "1",
+      "family_name": "Chergozyaaraa"
     }
   }
 ]
