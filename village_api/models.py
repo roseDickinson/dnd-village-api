@@ -66,5 +66,8 @@ class Person(models.Model):
     status = models.CharField(max_length=50, choices=StatusChoice.to_choices_list())
     profession = models.CharField(max_length=256)
     family = models.ForeignKey(
-        Family, on_delete=CASCADE, related_name="members", default=None
+        Family, on_delete=CASCADE, related_name="members", null=True
+    )
+    location = models.ForeignKey(
+        Location, on_delete=CASCADE, related_name="people", null=True
     )
