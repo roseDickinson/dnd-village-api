@@ -53,6 +53,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "village_api.urls"
 
+FIXTURE_DIRS = ["village_api/app/fixtures"]
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",

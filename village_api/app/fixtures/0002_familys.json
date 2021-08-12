@@ -1,0 +1,9 @@
+[
+  {
+    "model": "village_api.Family",
+    "pk": "1",
+    "fields": {
+      "location": "1"
+    }
+  }
+]

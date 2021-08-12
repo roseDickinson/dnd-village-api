@@ -1,0 +1,10 @@
+[
+  {
+    "model": "village_api.Location",
+    "pk": "1",
+    "fields": {
+      "name": "Aurwald",
+      "location_type": "Village"
+    }
+  }
+]

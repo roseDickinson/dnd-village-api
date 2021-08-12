@@ -53,6 +53,7 @@ class Location(models.Model):
 
 class Family(models.Model):
     location = models.ForeignKey(Location, on_delete=CASCADE, related_name="families")
+    family_name = models.CharField(max_length=50, null=True)
 
 
 class Person(models.Model):
