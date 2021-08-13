@@ -44,16 +44,19 @@ class LocationTypeChoice(DjangoChoicesEnum):
     D = "Dungeon"
 
 
+class RelationshipTypeChoice(DjangoChoicesEnum):
+    FAMILY = "Familial"
+    ROMANTIC = "Romantic"
+    FRIENDSHIP = "Friends"
+    ENEMY = "Enemies"
+    ACQUAINTANCE = "Acquaintances"
+
+
 class Location(models.Model):
     name = models.CharField(max_length=256)
     location_type = models.CharField(
         max_length=50, choices=LocationTypeChoice.to_choices_list()
     )
-
-
-class Family(models.Model):
-    location = models.ForeignKey(Location, on_delete=CASCADE, related_name="families")
-    family_name = models.CharField(max_length=50, null=True)
 
 
 class Person(models.Model):
@@ -66,9 +69,14 @@ class Person(models.Model):
     name = models.CharField(max_length=256)
     status = models.CharField(max_length=50, choices=StatusChoice.to_choices_list())
     profession = models.CharField(max_length=256)
-    family = models.ForeignKey(
-        Family, on_delete=CASCADE, related_name="members", null=True
-    )
     location = models.ForeignKey(
         Location, on_delete=CASCADE, related_name="people", null=True
     )
+
+
+class Relationship(models.Model):
+    people = models.ManyToManyField(Person, related_name="relationships")
+    type = models.CharField(
+        max_length=100, choices=RelationshipTypeChoice.to_choices_list()
+    )
+    details = models.CharField(max_length=1000)

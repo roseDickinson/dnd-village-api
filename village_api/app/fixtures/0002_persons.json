@@ -10,7 +10,20 @@
       "name": "Benn Chergozyaaraa",
       "status": "Alive",
       "profession": "Not sure",
-      "family": "1",
+      "location": "1"
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "2",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Cis man",
+      "sexuality": "Pansexual",
+      "age": "100",
+      "name": "Daavid Chergozyaaraa",
+      "status": "Alive",
+      "profession": "Not sure",
       "location": "1"
     }
   }

@@ -1,11 +1,11 @@
 from django.contrib.auth.models import User
 from rest_framework import generics, permissions, viewsets
 
-from village_api.models import Family, Location, Person
+from village_api.models import Location, Person, Relationship
 from village_api.app.serializers import (
-    FamilySerializer,
     LocationSerializer,
     PersonSerializer,
+    RelationshipSerializer,
     UserSerializer,
 )
 
@@ -20,13 +20,13 @@ class UserViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
-class Familys(generics.ListCreateAPIView):
+class Relationships(generics.ListCreateAPIView):
     """
     API endpoint that allows users to be viewed or edited.
     """
 
-    queryset = Family.objects.all()
-    serializer_class = FamilySerializer
+    queryset = Relationship.objects.all()
+    serializer_class = RelationshipSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 

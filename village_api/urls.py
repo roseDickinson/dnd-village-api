@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.urls import include, path
 from rest_framework import routers
-from village_api.app.views import Familys, Locations, Persons, UserViewSet
+from village_api.app.views import (
+    Locations,
+    Persons,
+    Relationships,
+    UserViewSet,
+)
 
 router = routers.DefaultRouter()
 router.register(r"users", UserViewSet)
@@ -25,7 +30,7 @@ router.register(r"users", UserViewSet)
 urlpatterns = [
     path("", include(router.urls)),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
-    path("familys/", Familys.as_view(), name="familys-list"),
+    path("relationships/", Relationships.as_view(), name="relationships-list"),
     path("locations/", Locations.as_view(), name="locations-list"),
     path("persons/", Persons.as_view(), name="persons-list"),
 ]

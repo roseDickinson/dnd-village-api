@@ -1,0 +1,14 @@
+[
+  {
+    "model": "village_api.Relationship",
+    "pk": "1",
+    "fields": {
+      "people": [
+        "1",
+        "2"
+      ],
+      "type": "Romantic",
+      "details": "Married, living together"
+    }
+  }
+]
