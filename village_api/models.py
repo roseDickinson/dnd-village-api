@@ -1,3 +1,4 @@
+from django.contrib.postgres.fields import ArrayField
 from django.db import models
 from django.db.models.deletion import CASCADE
 
@@ -45,7 +46,6 @@ class LocationTypeChoice(DjangoChoicesEnum):
 
 
 class RelationshipTypeChoice(DjangoChoicesEnum):
-    FAMILY = "Familial"
     ROMANTIC = "Romantic"
     FRIENDSHIP = "Friends"
     ENEMY = "Enemies"
@@ -71,6 +71,13 @@ class Person(models.Model):
     profession = models.CharField(max_length=256)
     location = models.ForeignKey(
         Location, on_delete=CASCADE, related_name="people", null=True
+    )
+    siblings = models.ManyToManyField("self")
+    # Can't seem to find a way to properly create a list of Person
+    # objects so just gonna list ids and manually look them up
+    parents = ArrayField(
+        models.CharField(max_length=50),
+        default=list,
     )
 
 

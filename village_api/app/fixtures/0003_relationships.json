@@ -10,5 +10,17 @@
       "type": "Romantic",
       "details": "Married, living together"
     }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "2",
+    "fields": {
+      "people": [
+        "3",
+        "4"
+      ],
+      "type": "Romantic",
+      "details": "Married, living together"
+    }
   }
 ]

@@ -6,11 +6,13 @@
       "race": "Aasimar",
       "gender": "Trans man",
       "sexuality": "Bisexual",
-      "age": "100",
+      "age": "81",
       "name": "Benn Chergozyaaraa",
       "status": "Alive",
       "profession": "Not sure",
-      "location": "1"
+      "location": "1",
+      "siblings": [],
+      "parents": []
     }
   },
   {
@@ -20,11 +22,136 @@
       "race": "Aasimar",
       "gender": "Cis man",
       "sexuality": "Pansexual",
-      "age": "100",
+      "age": "80",
       "name": "Daavid Chergozyaaraa",
       "status": "Alive",
       "profession": "Not sure",
-      "location": "1"
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "3",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "33",
+      "name": "Jaasmin Caalabra",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "4",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "37",
+      "name": "Randaal Caalabra",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "5",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Cis man",
+      "sexuality": "Bisexual",
+      "age": "15",
+      "name": "Raalmevik Caalabra",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [
+        "5",
+        "6"
+      ],
+      "parents": [
+        "3",
+        "4"
+      ]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "6",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Trans woman",
+      "sexuality": "Bisexual",
+      "age": "10",
+      "name": "Ataalaa Caalabra",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [
+        "5",
+        "7",
+        "8"
+      ],
+      "parents": [
+        "3",
+        "4"
+      ]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "7",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "6",
+      "name": "Richaard Caalabra",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [
+        "5",
+        "6",
+        "8"
+      ],
+      "parents": [
+        "3",
+        "4"
+      ]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "8",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Trans woman",
+      "sexuality": "Pansexual",
+      "age": "3",
+      "name": "Mei Caalabra",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [
+        "5",
+        "6",
+        "7"
+      ],
+      "parents": [
+        "3",
+        "4"
+      ]
     }
   }
 ]
