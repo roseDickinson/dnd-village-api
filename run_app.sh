@@ -1,5 +1,4 @@
 python manage.py migrate village_api
-python manage.py migrate village_api
 
 python manage.py loaddata 0001_locations
 python manage.py loaddata 0002_persons
