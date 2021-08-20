@@ -6,28 +6,50 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('village_api', '0002_family_family_name'),
+        ("village_api", "0002_family_family_name"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Relationship',
+            name="Relationship",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('type', models.CharField(choices=[('Familial', 'FAMILY'), ('Romantic', 'ROMANTIC'), ('Friends', 'FRIENDSHIP'), ('Enemies', 'ENEMY'), ('Acquaintances', 'ACQUAINTANCE')], max_length=100)),
-                ('details', models.CharField(max_length=1000)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "type",
+                    models.CharField(
+                        choices=[
+                            ("Familial", "FAMILY"),
+                            ("Romantic", "ROMANTIC"),
+                            ("Friends", "FRIENDSHIP"),
+                            ("Enemies", "ENEMY"),
+                            ("Acquaintances", "ACQUAINTANCE"),
+                        ],
+                        max_length=100,
+                    ),
+                ),
+                ("details", models.CharField(max_length=1000)),
             ],
         ),
         migrations.RemoveField(
-            model_name='person',
-            name='family',
+            model_name="person",
+            name="family",
         ),
         migrations.DeleteModel(
-            name='Family',
+            name="Family",
         ),
         migrations.AddField(
-            model_name='relationship',
-            name='people',
-            field=models.ManyToManyField(related_name='relationships', to='village_api.Person'),
+            model_name="relationship",
+            name="people",
+            field=models.ManyToManyField(
+                related_name="relationships", to="village_api.Person"
+            ),
         ),
     ]

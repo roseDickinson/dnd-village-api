@@ -29,6 +29,12 @@ class PersonBasicSerializer(serializers.ModelSerializer):
         fields = ["id", "name", "status", "parents", "siblings"]
 
 
+class LocationBasicSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Location
+        fields = "__all__"
+
+
 class LocationSerializer(serializers.ModelSerializer):
     people = serializers.SerializerMethodField("get_people")
 

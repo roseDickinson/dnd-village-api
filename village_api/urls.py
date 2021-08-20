@@ -16,6 +16,7 @@ Including another URLconf
 from django.urls import include, path
 from rest_framework import routers
 from village_api.app.views import (
+    LocationId,
     Locations,
     Persons,
     Relationships,
@@ -32,5 +33,6 @@ urlpatterns = [
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
     path("relationships/", Relationships.as_view(), name="relationships-list"),
     path("locations/", Locations.as_view(), name="locations-list"),
+    path("locations/<id>/", LocationId.as_view(), name="location-id"),
     path("persons/", Persons.as_view(), name="persons-list"),
 ]

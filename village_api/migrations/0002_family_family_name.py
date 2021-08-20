@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('village_api', '0001_create_models'),
+        ("village_api", "0001_create_models"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='family',
-            name='family_name',
+            model_name="family",
+            name="family_name",
             field=models.CharField(max_length=50, null=True),
         ),
     ]

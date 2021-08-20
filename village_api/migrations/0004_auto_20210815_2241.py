@@ -7,23 +7,35 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('village_api', '0003_auto_20210813_2006'),
+        ("village_api", "0003_auto_20210813_2006"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='person',
-            name='parents',
-            field=django.contrib.postgres.fields.ArrayField(base_field=models.CharField(max_length=50), default=list, size=None),
+            model_name="person",
+            name="parents",
+            field=django.contrib.postgres.fields.ArrayField(
+                base_field=models.CharField(max_length=50), default=list, size=None
+            ),
         ),
         migrations.AddField(
-            model_name='person',
-            name='siblings',
-            field=models.ManyToManyField(related_name='_village_api_person_siblings_+', to='village_api.Person'),
+            model_name="person",
+            name="siblings",
+            field=models.ManyToManyField(
+                related_name="_village_api_person_siblings_+", to="village_api.Person"
+            ),
         ),
         migrations.AlterField(
-            model_name='relationship',
-            name='type',
-            field=models.CharField(choices=[('Romantic', 'ROMANTIC'), ('Friends', 'FRIENDSHIP'), ('Enemies', 'ENEMY'), ('Acquaintances', 'ACQUAINTANCE')], max_length=100),
+            model_name="relationship",
+            name="type",
+            field=models.CharField(
+                choices=[
+                    ("Romantic", "ROMANTIC"),
+                    ("Friends", "FRIENDSHIP"),
+                    ("Enemies", "ENEMY"),
+                    ("Acquaintances", "ACQUAINTANCE"),
+                ],
+                max_length=100,
+            ),
         ),
     ]
