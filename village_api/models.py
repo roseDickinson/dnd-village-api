@@ -67,12 +67,17 @@ class Person(models.Model):
     )
     age = models.CharField(max_length=10)
     name = models.CharField(max_length=256)
+    # not necessarily a surname
+    family_name = models.CharField(max_length=256)
     status = models.CharField(max_length=50, choices=StatusChoice.to_choices_list())
     profession = models.CharField(max_length=256)
     location = models.ForeignKey(
         Location, on_delete=CASCADE, related_name="people", null=True
     )
-    siblings = models.ManyToManyField("self")
+    siblings = ArrayField(
+        models.CharField(max_length=50),
+        default=list,
+    )
     # Can't seem to find a way to properly create a list of Person
     # objects so just gonna list ids and manually look them up
     parents = ArrayField(
