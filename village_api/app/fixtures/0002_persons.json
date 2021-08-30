@@ -162,5 +162,22 @@
         "4"
       ]
     }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "9",
+    "fields": {
+      "race": "Aasimar",
+      "gender": "Cis man",
+      "sexuality": "Gay",
+      "age": "48",
+      "name": "Malark Bersk",
+      "family_name": "Bersk",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
   }
 ]

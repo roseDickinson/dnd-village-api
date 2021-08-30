@@ -8,6 +8,7 @@ from village_api.models import (
     Relationship,
     Relation,
     RelationshipTypeChoice,
+    StatusChoice,
 )
 
 
@@ -32,7 +33,7 @@ class PersonSerializer(serializers.ModelSerializer):
 class PersonBasicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
-        fields = ["id", "name", "status", "parents", "siblings"]
+        exclude = ["location", "siblings", "parents"]
 
 
 class LocationBasicSerializer(serializers.ModelSerializer):
@@ -79,10 +80,18 @@ class LocationSerializer(serializers.ModelSerializer):
         links = {}
         nodes = []
         for person in people:
+            color = "green"
+            if person.status == StatusChoice.DEAD.value:
+                color = "black"
+            if person.status == StatusChoice.MISSING.value:
+                color = "blue"
+            if person.status == StatusChoice.UNKNOWN.value:
+                color = "grey"
             nodes.append(
                 {
                     "id": str(person.id),
                     "group": person.family_name,
+                    "color": color,
                     "radius": 5,
                 }
             )
