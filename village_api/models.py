@@ -87,8 +87,18 @@ class Person(models.Model):
 
 
 class Relationship(models.Model):
-    people = models.ManyToManyField(Person, related_name="relationships")
+    people = models.ManyToManyField(
+        Person,
+        related_name="relationships",
+        through="Relation",
+        through_fields=("relationship", "person"),
+    )
     type = models.CharField(
         max_length=100, choices=RelationshipTypeChoice.to_choices_list()
     )
     details = models.CharField(max_length=1000)
+
+
+class Relation(models.Model):
+    relationship = models.ForeignKey(Relationship, on_delete=CASCADE)
+    person = models.ForeignKey(Person, on_delete=CASCADE)
