@@ -22,5 +22,101 @@
       "type": "Romantic",
       "details": "Married, living together"
     }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "3",
+    "fields": {
+      "people": [
+        "10",
+        "11"
+      ],
+      "type": "Romantic",
+      "details": "Married, living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "4",
+    "fields": {
+      "people": [
+        "15",
+        "16"
+      ],
+      "type": "Romantic",
+      "details": "Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "5",
+    "fields": {
+      "people": [
+        "17",
+        "18"
+      ],
+      "type": "Romantic",
+      "details": "Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "6",
+    "fields": {
+      "people": [
+        "20",
+        "21"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "7",
+    "fields": {
+      "people": [
+        "22",
+        "23"
+      ],
+      "type": "Romantic",
+      "details": "Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "8",
+    "fields": {
+      "people": [
+        "26",
+        "27"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "9",
+    "fields": {
+      "people": [
+        "31",
+        "32"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "10",
+    "fields": {
+      "people": [
+        "37",
+        "38"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
   }
 ]

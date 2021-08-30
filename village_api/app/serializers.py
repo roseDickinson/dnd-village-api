@@ -52,7 +52,7 @@ def add_links(source, value, relationship_list, links, color):
         key = f"{source}->{target}"
         potential_dupe_key = f"{target}->{source}"
         if potential_dupe_key in links:
-            return
+            continue
         links[key] = {
             "source": source,
             "target": target,
@@ -96,8 +96,8 @@ class LocationSerializer(serializers.ModelSerializer):
                 }
             )
             source = str(person.id)
-            add_links(source, 50, person.parents, links, "cyan")
-            add_links(source, 30, person.siblings, links, "blue")
+            add_links(source, 40, person.parents, links, "cyan")
+            add_links(source, 40, person.siblings, links, "blue")
             relationships = person.relationships.all()
             romantic_relations = []
             friendships = []
