@@ -118,5 +118,30 @@
       "type": "Romantic",
       "details": "Married, Living together"
     }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "11",
+    "fields": {
+      "people": [
+        "42",
+        "43"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "11",
+    "fields": {
+      "people": [
+        "46",
+        "47",
+        "48"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
   }
 ]
