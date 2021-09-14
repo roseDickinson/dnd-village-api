@@ -133,7 +133,7 @@
   },
   {
     "model": "village_api.Relationship",
-    "pk": "11",
+    "pk": "12",
     "fields": {
       "people": [
         "46",
@@ -142,6 +142,188 @@
       ],
       "type": "Romantic",
       "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "13",
+    "fields": {
+      "people": [
+        "49",
+        "50"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "14",
+    "fields": {
+      "people": [
+        "53",
+        "54"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "15",
+    "fields": {
+      "people": [
+        "58",
+        "59",
+        "60",
+        "61"
+      ],
+      "type": "Romantic",
+      "details": "Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "16",
+    "fields": {
+      "people": [
+        "62",
+        "63"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "17",
+    "fields": {
+      "people": [
+        "68",
+        "69"
+      ],
+      "type": "Romantic",
+      "details": "Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "18",
+    "fields": {
+      "people": [
+        "73",
+        "74"
+      ],
+      "type": "Romantic",
+      "details": "Married, Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "19",
+    "fields": {
+      "people": [
+        "78",
+        "79"
+      ],
+      "type": "Romantic",
+      "details": "Living together"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "20",
+    "fields": {
+      "people": [
+        "33",
+        "41"
+      ],
+      "type": "Romantic",
+      "details": "Dating"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "21",
+    "fields": {
+      "people": [
+        "5",
+        "64"
+      ],
+      "type": "Romantic",
+      "details": "Dating"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "22",
+    "fields": {
+      "people": [
+        "28",
+        "72"
+      ],
+      "type": "Romantic",
+      "details": "Dating"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "23",
+    "fields": {
+      "people": [
+        "30",
+        "56"
+      ],
+      "type": "Romantic",
+      "details": "Dating"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "24",
+    "fields": {
+      "people": [
+        "65",
+        "71"
+      ],
+      "type": "Romantic",
+      "details": "Dating"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "25",
+    "fields": {
+      "people": [
+        "9",
+        "56"
+      ],
+      "type": "Friends",
+      "details": "Used to be in a relationship, now friends."
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "26",
+    "fields": {
+      "people": [
+        "9",
+        "30"
+      ],
+      "type": "Friends",
+      "details": "Malark is the ex of Bune, all 3 are friends"
+    }
+  },
+  {
+    "model": "village_api.Relationship",
+    "pk": "27",
+    "fields": {
+      "people": [
+        "2",
+        "12"
+      ],
+      "type": "Enemies",
+      "details": "Daavid and Betha are not amicable after their split now that Randaal is 37 and has his own family."
     }
   }
 ]

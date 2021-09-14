@@ -12,8 +12,9 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
-      "parents": []
+      "siblings": ["57"],
+      "parents": [],
+      "extra_info": "Arrived with baby brother Luth Chergoba, couldn't take care of him alone so gave Luth to Kallista/Tethren to adopt"
     }
   },
   {
@@ -30,7 +31,8 @@
       "profession": "Not sure",
       "location": "1",
       "siblings": [],
-      "parents": []
+      "parents": [],
+      "extra_info": "Daavid and Betha had Randaal then split up when Daavid fell for Benn. Betha and Daavid are not on good terms."
     }
   },
   {
@@ -47,7 +49,7 @@
       "profession": "Not sure",
       "location": "1",
       "siblings": [],
-      "parents": []
+      "parents": ["1", "2"]
     }
   },
   {
@@ -64,7 +66,8 @@
       "profession": "Not sure",
       "location": "1",
       "siblings": [],
-      "parents": []
+      "parents": ["2", "12"],
+      "extra_info": "Daavid and Betha had Randaal then split up when Daavid fell for Benn. Betha and Daavid are not on good terms."
     }
   },
   {
@@ -176,8 +179,9 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": ["21"],
-      "parents": []
+      "siblings": [],
+      "parents": [],
+      "extra_info": "Used to be in relationship with Bune before he realised he was gay, had a daughter - Clair with Bune. When he realised he was gay separated amicably with Bune and she got together with George Ramondo"
     }
   },
   {
@@ -228,7 +232,8 @@
       "profession": "Not sure",
       "location": "1",
       "siblings": ["13", "14"],
-      "parents": ["10", "11"]
+      "parents": ["10", "11"],
+      "extra_info": "Daavid and Betha had Randaal then split up when Daavid fell for Benn. Betha and Daavid are not on good terms."
     }
   },
   {
@@ -329,7 +334,7 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
+      "siblings": ["61", "73"],
       "parents": []
     }
   },
@@ -380,8 +385,8 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": ["9"],
-      "parents": []
+      "siblings": [],
+      "parents": ["9", "56"]
     }
   },
   {
@@ -414,7 +419,7 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
+      "siblings": ["59"],
       "parents": []
     }
   },
@@ -465,7 +470,7 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
+      "siblings": ["26"],
       "parents": []
     }
   },
@@ -492,7 +497,7 @@
     "fields": {
       "race": "Human",
       "gender": "Cis woman",
-      "sexuality": "Heterosexual",
+      "sexuality": "Pansexual",
       "age": "32",
       "name": "Faila Ramondo",
       "family_name": "Ramondo",
@@ -652,7 +657,7 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
+      "siblings": ["37"],
       "parents": []
     }
   },
@@ -805,7 +810,7 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
+      "siblings": ["49"],
       "parents": []
     }
   },
@@ -822,7 +827,7 @@
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",
-      "siblings": [],
+      "siblings": ["60"],
       "parents": []
     }
   },
@@ -836,6 +841,535 @@
       "age": "37",
       "name": "Nemeia",
       "family_name": "Mockery/Criella/Nemia",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "49",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "42",
+      "name": "Makaria",
+      "family_name": "Melech/Makaria",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["46"],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "50",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "47",
+      "name": "Melech",
+      "family_name": "Melech/Makaria",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "51",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Asexual",
+      "age": "18",
+      "name": "Skamos",
+      "family_name": "Melech/Makaria",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["52"],
+      "parents": ["49", "50"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "52",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "2",
+      "name": "Lerissa",
+      "family_name": "Melech/Makaria",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["51"],
+      "parents": ["49", "50"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "53",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "89",
+      "name": "Kallista",
+      "family_name": "Kallista/Tethren",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "54",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Pansexual",
+      "age": "88",
+      "name": "Tethren",
+      "family_name": "Kallista/Tethren",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "55",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "39",
+      "name": "Modean",
+      "family_name": "Kallista/Tethren",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["56", "57"],
+      "parents": ["53", "54"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "56",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "46",
+      "name": "Bune",
+      "family_name": "Kallista/Tethren",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["55", "57"],
+      "parents": ["53", "54"],
+      "extra_info": "Used to be in relationship with Malark before he realised he was gay, had a daughter - Clair with him. When he realised he was gay they separated amicably and Bune fell in love with George Ramondo"
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "57",
+    "fields": {
+      "race": "Human",
+      "gender": "Cis man",
+      "sexuality": "Bisexual",
+      "age": "39",
+      "name": "Luth Chergoba",
+      "family_name": "Kallista/Tethren",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["55", "56", "1"],
+      "parents": ["53", "54"],
+      "extra_info": "Arrived as a baby with older brother Benn Chergobaa, but Benn couldn't take care of him alone so Luth was adopted by Kallista/Tethren"
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "58",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Gay",
+      "age": "25",
+      "name": "Kairon",
+      "family_name": "Evenwood",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "59",
+    "fields": {
+      "race": "Human",
+      "gender": "Cis man",
+      "sexuality": "Gay",
+      "age": "32",
+      "name": "Mival Evenwood",
+      "family_name": "Evenwood",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["23"],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "60",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Gay",
+      "age": "34",
+      "name": "Akmenos",
+      "family_name": "Evenwood",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["47"],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "61",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Gay",
+      "age": "31",
+      "name": "Purson",
+      "family_name": "Evenwood",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["18", "73"],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "62",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "59",
+      "name": "Barakas",
+      "family_name": "Dundragon",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "63",
+    "fields": {
+      "race": "Human",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "58",
+      "name": "Hama Dundragon",
+      "family_name": "Dundragon",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "64",
+    "fields": {
+      "race": "Human",
+      "gender": "Cis man",
+      "sexuality": "Bisexual",
+      "age": "15",
+      "name": "Malcer Dundragon",
+      "family_name": "Dundragon",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["65", "66", "67"],
+      "parents": ["62", "63"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "65",
+    "fields": {
+      "race": "Human",
+      "gender": "Trans man",
+      "sexuality": "Pansexual",
+      "age": "27",
+      "name": "Haseid Dundragon",
+      "family_name": "Dundragon",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["64", "66", "67"],
+      "parents": ["62", "63"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "66",
+    "fields": {
+      "race": "Human",
+      "gender": "Cis woman",
+      "sexuality": "Bisexual",
+      "age": "8",
+      "name": "Charlotte Dundragon",
+      "family_name": "Dundragon",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["64", "65", "67"],
+      "parents": ["62", "63"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "67",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Nonbinary",
+      "sexuality": "Lesbian",
+      "age": "23",
+      "name": "Entropy",
+      "family_name": "Dundragon",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["64", "65", "66"],
+      "parents": ["62", "63"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "68",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "51",
+      "name": "Pelaios",
+      "family_name": "Pelaios/Shasx",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "69",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "54",
+      "name": "Shasx",
+      "family_name": "Pelaios/Shasx",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "70",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "21",
+      "name": "Purah",
+      "family_name": "Pelaios/Shasx",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["71", "72"],
+      "parents": ["68", "69"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "71",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Trans woman",
+      "sexuality": "Heterosexual",
+      "age": "22",
+      "name": "Uzza",
+      "family_name": "Pelaios/Shasx",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["70", "72"],
+      "parents": ["68", "69"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "72",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Trans woman",
+      "sexuality": "Lesbian",
+      "age": "30",
+      "name": "Pyra",
+      "family_name": "Pelaios/Shasx",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["70", "71"],
+      "parents": ["68", "69"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "73",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Trans woman",
+      "sexuality": "Heterosexual",
+      "age": "26",
+      "name": "Seere",
+      "family_name": "Seere/Mormo",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["18", "61"],
+      "parents": ["15", "16"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "74",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Pansexual",
+      "age": "27",
+      "name": "Mormo",
+      "family_name": "Seere/Mormo",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "75",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "4",
+      "name": "Wit",
+      "family_name": "Seere/Mormo",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["76", "77"],
+      "parents": ["73", "74"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "76",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Trans woman",
+      "sexuality": "Bisexual",
+      "age": "5",
+      "name": "Hecat",
+      "family_name": "Seere/Mormo",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["75", "77"],
+      "parents": ["73", "74"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "77",
+    "fields": {
+      "race": "Tiefling",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "1",
+      "name": "Xeppan",
+      "family_name": "Seere/Mormo",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": ["75", "76"],
+      "parents": ["73", "74"]
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "78",
+    "fields": {
+      "race": "Vedalken",
+      "gender": "Cis woman",
+      "sexuality": "Heterosexual",
+      "age": "350",
+      "name": "Katrille",
+      "family_name": "Katrille/Uldin",
+      "status": "Alive",
+      "profession": "Not sure",
+      "location": "1",
+      "siblings": [],
+      "parents": []
+    }
+  },
+  {
+    "model": "village_api.Person",
+    "pk": "79",
+    "fields": {
+      "race": "Vedalken",
+      "gender": "Cis man",
+      "sexuality": "Heterosexual",
+      "age": "359",
+      "name": "Uldin",
+      "family_name": "Katrille/Uldin",
       "status": "Alive",
       "profession": "Not sure",
       "location": "1",

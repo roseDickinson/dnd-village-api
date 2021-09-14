@@ -90,14 +90,14 @@ class LocationSerializer(serializers.ModelSerializer):
             nodes.append(
                 {
                     "id": str(person.id),
+                    "name": person.name,
                     "group": person.family_name,
                     "color": color,
-                    "radius": 5,
                 }
             )
             source = str(person.id)
-            add_links(source, 40, person.parents, links, "cyan")
-            add_links(source, 40, person.siblings, links, "blue")
+            add_links(source, 75, person.parents, links, "cyan")
+            add_links(source, 50, person.siblings, links, "blue")
             relationships = person.relationships.all()
             romantic_relations = []
             friendships = []
@@ -114,9 +114,9 @@ class LocationSerializer(serializers.ModelSerializer):
                         enemies.append(str(other_person.id))
                     if relation.type == RelationshipTypeChoice.ACQUAINTANCE.value:
                         acquantances.append(str(other_person.id))
-            add_links(source, 30, romantic_relations, links, "hotpink")
-            add_links(source, 100, friendships, links, "green")
-            add_links(source, 100, enemies, links, "red")
-            add_links(source, 100, acquantances, links, "grey")
+            add_links(source, 25, romantic_relations, links, "hotpink")
+            add_links(source, 125, friendships, links, "green")
+            add_links(source, 125, enemies, links, "red")
+            add_links(source, 150, acquantances, links, "grey")
 
         return GraphDataSerializer({"nodes": nodes, "links": links.values()}).data

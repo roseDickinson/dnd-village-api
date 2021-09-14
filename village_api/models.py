@@ -84,6 +84,7 @@ class Person(models.Model):
         models.CharField(max_length=50),
         default=list,
     )
+    extra_info = models.TextField(default="")
 
 
 class Relationship(models.Model):
