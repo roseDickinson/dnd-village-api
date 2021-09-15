@@ -10,7 +10,7 @@
       "name": "Benn Chergozyaaraa",
       "family_name": "Chergozyaaraa",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Retired Carpenter",
       "location": "1",
       "siblings": ["57"],
       "parents": [],
@@ -28,7 +28,7 @@
       "name": "Daavid Chergozyaaraa",
       "family_name": "Chergozyaaraa",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Retired Carpenter",
       "location": "1",
       "siblings": [],
       "parents": [],
@@ -46,7 +46,7 @@
       "name": "Jaasmin Caalabra",
       "family_name": "Caalabra",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Carpenter",
       "location": "1",
       "siblings": [],
       "parents": ["1", "2"]
@@ -63,7 +63,7 @@
       "name": "Randaal Caalabra",
       "family_name": "Caalabra",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Carpenter",
       "location": "1",
       "siblings": [],
       "parents": ["2", "12"],
@@ -81,7 +81,7 @@
       "name": "Raalmevik Caalabra",
       "family_name": "Caalabra",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Carpenter",
       "location": "1",
       "siblings": [
         "6",
@@ -105,7 +105,7 @@
       "name": "Ataalaa Caalabra",
       "family_name": "Caalabra",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Carpenter",
       "location": "1",
       "siblings": [
         "5",
@@ -129,7 +129,7 @@
       "name": "Richaard Caalabra",
       "family_name": "Caalabra",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": [
         "5",
@@ -153,7 +153,7 @@
       "name": "Mei Caalabra",
       "family_name": "Caalabra",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": [
         "5",
@@ -177,7 +177,7 @@
       "name": "Malark Bersk",
       "family_name": "Bersk",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Lumberjack",
       "location": "1",
       "siblings": [],
       "parents": [],
@@ -195,7 +195,7 @@
       "name": "Stephaanie Jassan",
       "family_name": "Jassan",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Retired Bowyer",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -212,7 +212,7 @@
       "name": "Salaazaar Jassan",
       "family_name": "Jassan",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Teacher",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -229,7 +229,7 @@
       "name": "Betha Jassan",
       "family_name": "Jassan",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Bowyer",
       "location": "1",
       "siblings": ["13", "14"],
       "parents": ["10", "11"],
@@ -247,7 +247,7 @@
       "name": "Aarveene Jassan",
       "family_name": "Jassan",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Fisher",
       "location": "1",
       "siblings": ["12", "14"],
       "parents": ["10", "11"]
@@ -264,7 +264,7 @@
       "name": "Meilil Jassan",
       "family_name": "Jassan",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Lumberjack",
       "location": "1",
       "siblings": ["12", "13"],
       "parents": ["10", "11"]
@@ -281,7 +281,7 @@
       "name": "Jasmaal Fezim",
       "family_name": "Fezim",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Carpenter",
       "location": "1",
       "siblings": ["32"],
       "parents": []
@@ -298,7 +298,7 @@
       "name": "Damakos",
       "family_name": "Fezim",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Hunter",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -315,7 +315,7 @@
       "name": "Lureene Hornraven",
       "family_name": "Hornraven",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Lumberjack",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -332,7 +332,7 @@
       "name": "Anakis",
       "family_name": "Hornraven",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Lumberjack",
       "location": "1",
       "siblings": ["61", "73"],
       "parents": []
@@ -349,7 +349,7 @@
       "name": "Molly Hornraven",
       "family_name": "Hornraven",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": [],
       "parents": ["17", "18"]
@@ -366,7 +366,7 @@
       "name": "Lucas Bersk",
       "family_name": "Bersk",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Hunter",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -383,7 +383,7 @@
       "name": "Clair Bersk",
       "family_name": "Bersk",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Potter",
       "location": "1",
       "siblings": [],
       "parents": ["9", "56"]
@@ -400,7 +400,7 @@
       "name": "Betha Kulenov",
       "family_name": "Kulenov",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Bowyer",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -417,7 +417,7 @@
       "name": "Fodel Kulenov",
       "family_name": "Kulenov",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Fisher",
       "location": "1",
       "siblings": ["59"],
       "parents": []
@@ -434,7 +434,7 @@
       "name": "David Kulenov",
       "family_name": "Kulenov",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Bowyer",
       "location": "1",
       "siblings": ["25"],
       "parents": ["22", "23"]
@@ -451,7 +451,7 @@
       "name": "Arveene Kulenov",
       "family_name": "Kulenov",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Hunter",
       "location": "1",
       "siblings": ["24"],
       "parents": ["22", "23"]
@@ -468,7 +468,7 @@
       "name": "Henry Ramondo",
       "family_name": "Ramondo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Tailor",
       "location": "1",
       "siblings": ["26"],
       "parents": []
@@ -485,7 +485,7 @@
       "name": "Paul Ramondo",
       "family_name": "Ramondo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Tanner",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -502,7 +502,7 @@
       "name": "Faila Ramondo",
       "family_name": "Ramondo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Forager",
       "location": "1",
       "siblings": ["29", "30"],
       "parents": ["26", "27"]
@@ -519,7 +519,7 @@
       "name": "Shandri Ramondo",
       "family_name": "Ramondo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Hunter",
       "location": "1",
       "siblings": ["28", "30"],
       "parents": ["26", "27"]
@@ -536,7 +536,7 @@
       "name": "George Ramondo",
       "family_name": "Ramondo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Tailor",
       "location": "1",
       "siblings": ["28", "29"],
       "parents": ["26", "27"]
@@ -550,10 +550,10 @@
       "gender": "Cis man",
       "sexuality": "Heterosexual",
       "age": "41",
-      "name": "Malark Pisacar",
+      "name": "Robert Pisacar",
       "family_name": "Pisacar",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Hunter",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -570,7 +570,7 @@
       "name": "Ceidl Pisacar",
       "family_name": "Pisacar",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Forager",
       "location": "1",
       "siblings": ["15"],
       "parents": []
@@ -587,7 +587,7 @@
       "name": "Cersei Pisacar",
       "family_name": "Pisacar",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Bar Staff at the Inn",
       "location": "1",
       "siblings": ["34", "35", "36"],
       "parents": ["31", "32"]
@@ -604,7 +604,7 @@
       "name": "Luth Pisacar",
       "family_name": "Pisacar",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["33", "35", "36"],
       "parents": ["31", "32"]
@@ -621,7 +621,7 @@
       "name": "Richard Pisacar",
       "family_name": "Pisacar",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["33", "34", "36"],
       "parents": ["31", "32"]
@@ -638,7 +638,7 @@
       "name": "Orel Pisacar",
       "family_name": "Pisacar",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["33", "34", "35"],
       "parents": ["31", "32"]
@@ -655,7 +655,7 @@
       "name": "Stephanie Hahpet",
       "family_name": "Hahpet",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Retired Fisher",
       "location": "1",
       "siblings": ["37"],
       "parents": []
@@ -672,7 +672,7 @@
       "name": "Akta",
       "family_name": "Hahpet",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Blacksmith",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -689,7 +689,7 @@
       "name": "Pelener",
       "family_name": "Hahpet",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Blacksmith",
       "location": "1",
       "siblings": ["40", "41"],
       "parents": ["37", "38"]
@@ -706,7 +706,7 @@
       "name": "Azi",
       "family_name": "Hahpet",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Blacksmith",
       "location": "1",
       "siblings": ["39", "41"],
       "parents": ["37", "38"]
@@ -723,10 +723,11 @@
       "name": "Astar",
       "family_name": "Hahpet",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Wanna Be Adventurer",
       "location": "1",
       "siblings": ["39", "40"],
-      "parents": ["37", "38"]
+      "parents": ["37", "38"],
+      "extra_info": "Has an unrequited crush on Entropy so followed them into Adventuring"
     }
   },
   {
@@ -740,7 +741,7 @@
       "name": "Vesmova",
       "family_name": "Vesmova/Verij",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Reverend",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -757,7 +758,7 @@
       "name": "Verij",
       "family_name": "Vesmova/Verij",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Reverend",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -774,7 +775,7 @@
       "name": "Aseir Dumein",
       "family_name": "Vesmova/Verij",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": [],
       "parents": ["42", "43"]
@@ -791,7 +792,7 @@
       "name": "Dancu",
       "family_name": "Dancu",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Teacher",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -808,7 +809,7 @@
       "name": "Mockery",
       "family_name": "Mockery/Criella/Nemia",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Fisher",
       "location": "1",
       "siblings": ["49"],
       "parents": []
@@ -825,7 +826,7 @@
       "name": "Criella",
       "family_name": "Mockery/Criella/Nemia",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Lumberjack",
       "location": "1",
       "siblings": ["60"],
       "parents": []
@@ -842,7 +843,7 @@
       "name": "Nemeia",
       "family_name": "Mockery/Criella/Nemia",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Butcher",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -859,7 +860,7 @@
       "name": "Makaria",
       "family_name": "Melech/Makaria",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Forager",
       "location": "1",
       "siblings": ["46"],
       "parents": []
@@ -876,7 +877,7 @@
       "name": "Melech",
       "family_name": "Melech/Makaria",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Lumberjack",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -893,7 +894,7 @@
       "name": "Skamos",
       "family_name": "Melech/Makaria",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Lumberjack",
       "location": "1",
       "siblings": ["52"],
       "parents": ["49", "50"]
@@ -910,7 +911,7 @@
       "name": "Lerissa",
       "family_name": "Melech/Makaria",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["51"],
       "parents": ["49", "50"]
@@ -927,7 +928,7 @@
       "name": "Kallista",
       "family_name": "Kallista/Tethren",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Retired Forager",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -944,7 +945,7 @@
       "name": "Tethren",
       "family_name": "Kallista/Tethren",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Retired Carpenter",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -961,7 +962,7 @@
       "name": "Modean",
       "family_name": "Kallista/Tethren",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Forager",
       "location": "1",
       "siblings": ["56", "57"],
       "parents": ["53", "54"]
@@ -978,7 +979,7 @@
       "name": "Bune",
       "family_name": "Kallista/Tethren",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Forager",
       "location": "1",
       "siblings": ["55", "57"],
       "parents": ["53", "54"],
@@ -996,7 +997,7 @@
       "name": "Luth Chergoba",
       "family_name": "Kallista/Tethren",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Carpenter",
       "location": "1",
       "siblings": ["55", "56", "1"],
       "parents": ["53", "54"],
@@ -1014,10 +1015,11 @@
       "name": "Kairon",
       "family_name": "Evenwood",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Wanna Be Adventurer",
       "location": "1",
       "siblings": [],
-      "parents": []
+      "parents": [],
+      "extra_info": "Has an unrequited crush on Astar, so followed him into Adventuring"
     }
   },
   {
@@ -1031,7 +1033,7 @@
       "name": "Mival Evenwood",
       "family_name": "Evenwood",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Fisher",
       "location": "1",
       "siblings": ["23"],
       "parents": []
@@ -1048,7 +1050,7 @@
       "name": "Akmenos",
       "family_name": "Evenwood",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Butcher",
       "location": "1",
       "siblings": ["47"],
       "parents": []
@@ -1065,7 +1067,7 @@
       "name": "Purson",
       "family_name": "Evenwood",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Fisher",
       "location": "1",
       "siblings": ["18", "73"],
       "parents": []
@@ -1082,7 +1084,7 @@
       "name": "Barakas",
       "family_name": "Dundragon",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Bar Staff at the Inn",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -1099,7 +1101,7 @@
       "name": "Hama Dundragon",
       "family_name": "Dundragon",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Brewer/Cook at the Inn",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -1116,7 +1118,7 @@
       "name": "Malcer Dundragon",
       "family_name": "Dundragon",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Forager for the Inn (river weed + hops)",
       "location": "1",
       "siblings": ["65", "66", "67"],
       "parents": ["62", "63"]
@@ -1133,7 +1135,7 @@
       "name": "Haseid Dundragon",
       "family_name": "Dundragon",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Cleaner at the Inn",
       "location": "1",
       "siblings": ["64", "66", "67"],
       "parents": ["62", "63"]
@@ -1150,7 +1152,7 @@
       "name": "Charlotte Dundragon",
       "family_name": "Dundragon",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Forager for the Inn (river weed + hops)",
       "location": "1",
       "siblings": ["64", "65", "67"],
       "parents": ["62", "63"]
@@ -1167,10 +1169,11 @@
       "name": "Entropy",
       "family_name": "Dundragon",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Wanna Be Adventurer",
       "location": "1",
       "siblings": ["64", "65", "66"],
-      "parents": ["62", "63"]
+      "parents": ["62", "63"],
+      "extra_info": "Knows that Astar has a crush on them, tries to politely avoid it at all times but Astar never takes the hint. Is just a total badass and the only competent wanna be adventurer."
     }
   },
   {
@@ -1184,7 +1187,7 @@
       "name": "Pelaios",
       "family_name": "Pelaios/Shasx",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Tailor",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -1201,7 +1204,7 @@
       "name": "Shasx",
       "family_name": "Pelaios/Shasx",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Tanner",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -1218,7 +1221,7 @@
       "name": "Purah",
       "family_name": "Pelaios/Shasx",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Brewer/Cook at the Inn",
       "location": "1",
       "siblings": ["71", "72"],
       "parents": ["68", "69"]
@@ -1235,7 +1238,7 @@
       "name": "Uzza",
       "family_name": "Pelaios/Shasx",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Tinkerer",
       "location": "1",
       "siblings": ["70", "72"],
       "parents": ["68", "69"]
@@ -1252,7 +1255,7 @@
       "name": "Pyra",
       "family_name": "Pelaios/Shasx",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Tanner",
       "location": "1",
       "siblings": ["70", "71"],
       "parents": ["68", "69"]
@@ -1269,7 +1272,7 @@
       "name": "Seere",
       "family_name": "Seere/Mormo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Forager",
       "location": "1",
       "siblings": ["18", "61"],
       "parents": ["15", "16"]
@@ -1286,7 +1289,7 @@
       "name": "Mormo",
       "family_name": "Seere/Mormo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Trainee Hunter",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -1303,7 +1306,7 @@
       "name": "Wit",
       "family_name": "Seere/Mormo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["76", "77"],
       "parents": ["73", "74"]
@@ -1320,7 +1323,7 @@
       "name": "Hecat",
       "family_name": "Seere/Mormo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["75", "77"],
       "parents": ["73", "74"]
@@ -1337,7 +1340,7 @@
       "name": "Xeppan",
       "family_name": "Seere/Mormo",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Child",
       "location": "1",
       "siblings": ["75", "76"],
       "parents": ["73", "74"]
@@ -1354,7 +1357,7 @@
       "name": "Katrille",
       "family_name": "Katrille/Uldin",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Potter",
       "location": "1",
       "siblings": [],
       "parents": []
@@ -1371,7 +1374,7 @@
       "name": "Uldin",
       "family_name": "Katrille/Uldin",
       "status": "Alive",
-      "profession": "Not sure",
+      "profession": "Potter",
       "location": "1",
       "siblings": [],
       "parents": []

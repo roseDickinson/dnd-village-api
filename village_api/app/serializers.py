@@ -33,7 +33,39 @@ class PersonSerializer(serializers.ModelSerializer):
 class PersonBasicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
-        exclude = ["location", "siblings", "parents"]
+        fields = ["name", "id"]
+
+
+class PersonDetailedSerializer(serializers.ModelSerializer):
+    siblings = serializers.SerializerMethodField("get_siblings")
+    parents = serializers.SerializerMethodField("get_parents")
+    partners = serializers.SerializerMethodField("get_partners")
+
+    class Meta:
+        model = Person
+        exclude = ["location"]
+
+    @swagger_serializer_method(serializer_or_field=PersonBasicSerializer(many=True))
+    def get_siblings(self, instance):
+        siblings = Person.objects.filter(id__in=instance.siblings)
+        return PersonBasicSerializer(siblings, many=True).data
+
+    @swagger_serializer_method(serializer_or_field=PersonBasicSerializer(many=True))
+    def get_parents(self, instance):
+        parents = Person.objects.filter(id__in=instance.parents)
+        return PersonBasicSerializer(parents, many=True).data
+
+    @swagger_serializer_method(serializer_or_field=PersonBasicSerializer(many=True))
+    def get_partners(self, instance):
+        relationships = instance.relationships.all()
+        partners = []
+        for relation in relationships:
+            if relation.type == RelationshipTypeChoice.ROMANTIC.value:
+                other_people = relation.people.exclude(id=instance.id)
+                partners.extend(other_people)
+
+        return PersonBasicSerializer(partners, many=True).data
+
 
 
 class LocationBasicSerializer(serializers.ModelSerializer):
@@ -69,9 +101,9 @@ class LocationSerializer(serializers.ModelSerializer):
         model = Location
         fields = "__all__"
 
-    @swagger_serializer_method(serializer_or_field=PersonBasicSerializer(many=True))
+    @swagger_serializer_method(serializer_or_field=PersonDetailedSerializer(many=True))
     def get_people(self, instance):
-        return PersonBasicSerializer(instance.people, many=True).data
+        return PersonDetailedSerializer(instance.people, many=True).data
 
     @swagger_serializer_method(serializer_or_field=GraphDataSerializer(many=True))
     def get_graph_data(self, instance):
@@ -100,23 +132,23 @@ class LocationSerializer(serializers.ModelSerializer):
             add_links(source, 50, person.siblings, links, "blue")
             relationships = person.relationships.all()
             romantic_relations = []
-            friendships = []
-            enemies = []
-            acquantances = []
+            # friendships = []
+            # enemies = []
+            # acquantances = []
             for relation in relationships:
-                other_people = relation.people.exclude(id=person.id)
-                for other_person in other_people:
-                    if relation.type == RelationshipTypeChoice.ROMANTIC.value:
+                if relation.type == RelationshipTypeChoice.ROMANTIC.value:
+                    other_people = relation.people.exclude(id=person.id)
+                    for other_person in other_people:
                         romantic_relations.append(str(other_person.id))
-                    if relation.type == RelationshipTypeChoice.FRIENDSHIP.value:
-                        friendships.append(str(other_person.id))
-                    if relation.type == RelationshipTypeChoice.ENEMY.value:
-                        enemies.append(str(other_person.id))
-                    if relation.type == RelationshipTypeChoice.ACQUAINTANCE.value:
-                        acquantances.append(str(other_person.id))
+                    # if relation.type == RelationshipTypeChoice.FRIENDSHIP.value:
+                    #     friendships.append(str(other_person.id))
+                    # if relation.type == RelationshipTypeChoice.ENEMY.value:
+                    #     enemies.append(str(other_person.id))
+                    # if relation.type == RelationshipTypeChoice.ACQUAINTANCE.value:
+                    #     acquantances.append(str(other_person.id))
             add_links(source, 25, romantic_relations, links, "hotpink")
-            add_links(source, 125, friendships, links, "green")
-            add_links(source, 125, enemies, links, "red")
-            add_links(source, 150, acquantances, links, "grey")
+            # add_links(source, 125, friendships, links, "green")
+            # add_links(source, 125, enemies, links, "red")
+            # add_links(source, 150, acquantances, links, "grey")
 
         return GraphDataSerializer({"nodes": nodes, "links": links.values()}).data
