@@ -334,7 +334,7 @@
       "status": "Alive",
       "profession": "Trainee Lumberjack",
       "location": "1",
-      "siblings": ["61", "73"],
+      "siblings": ["61", "48"],
       "parents": []
     }
   },
@@ -658,7 +658,8 @@
       "profession": "Retired Fisher",
       "location": "1",
       "siblings": ["37"],
-      "parents": []
+      "parents": [],
+      "extra_info": "Azi and Pelener were adopted by Akta and Stephanie when they came through a portal 15 years ago"
     }
   },
   {
@@ -675,7 +676,8 @@
       "profession": "Blacksmith",
       "location": "1",
       "siblings": [],
-      "parents": []
+      "parents": [],
+      "extra_info": "Azi and Pelener were adopted by Akta and Stephanie when they came through a portal 15 years ago"
     }
   },
   {
@@ -692,7 +694,8 @@
       "profession": "Trainee Blacksmith",
       "location": "1",
       "siblings": ["40", "41"],
-      "parents": ["37", "38"]
+      "parents": ["37", "38"],
+      "extra_info": "Azi and Pelener were adopted by Akta and Stephanie when they came through a portal 15 years ago"
     }
   },
   {
@@ -709,7 +712,8 @@
       "profession": "Trainee Blacksmith",
       "location": "1",
       "siblings": ["39", "41"],
-      "parents": ["37", "38"]
+      "parents": ["37", "38"],
+      "extra_info": "Azi and Pelener were adopted by Akta and Stephanie when they came through a portal 15 years ago"
     }
   },
   {
@@ -845,7 +849,7 @@
       "status": "Alive",
       "profession": "Butcher",
       "location": "1",
-      "siblings": [],
+      "siblings": ["18", "61"],
       "parents": []
     }
   },
@@ -1069,7 +1073,7 @@
       "status": "Alive",
       "profession": "Fisher",
       "location": "1",
-      "siblings": ["18", "73"],
+      "siblings": ["18", "48"],
       "parents": []
     }
   },
@@ -1274,7 +1278,7 @@
       "status": "Alive",
       "profession": "Trainee Forager",
       "location": "1",
-      "siblings": ["18", "61"],
+      "siblings": [],
       "parents": ["15", "16"]
     }
   },
